@@ -1,56 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:background="@color/colorprimary"
-        android:weightSum="12"
-        >
-
-        <ImageButton
-            android:id="@+id/back_btn"
-            android:layout_width="49dp"
-            android:layout_height="38dp"
-            android:background="@android:color/transparent"
-            android:src="@drawable/ic_baseline_arrow_back_24" />
-
-
-
-
-    <EditText
-        android:id="@+id/url_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="8dp"
-        android:layout_weight="10"
-        android:background="@drawable/edit_txt"
-        android:hint="Type Your URL Here"
-        android:paddingHorizontal="12dp"
-        android:paddingVertical="8dp" />
-
-    <ImageButton
-            android:id="@+id/search_btn"
-            android:layout_width="73dp"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:src="@drawable/ic_baseline_search_24"/>
-
-</LinearLayout>
-</LinearLayout>
-
-<LinearLayout
-<WebView
-
-    <!--<TextView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/greeting"
@@ -145,6 +101,7 @@
                 android:text="Rotate"
                 android:textAllCaps="false" />
         </LinearLayout>
-    </LinearLayout> -->
+    </LinearLayout>
 
 
+</androidx.constraintlayout.widget.ConstraintLayout>
