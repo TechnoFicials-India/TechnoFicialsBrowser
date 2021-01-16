@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TeFi Browser</string>
     <string name="greeting">Hi Hello How are you....Welcome to TeFi Browser</string>
+    <string name="search_box_hint">Type Your URL Here</string>
 </resources>
